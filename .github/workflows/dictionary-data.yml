@@ -24,9 +24,9 @@ permissions:
 
 jobs:
   publish:
-    uses: Domingax/lekto/.github/workflows/dictionary-data.yml@main
+    uses: Domingax/lekto/.github/workflows/dictionary-data.yml@issue-306-cjk
     permissions:
       contents: write
       actions: read
     with:
-      app-ref: main
+      app-ref: issue-306-cjk
